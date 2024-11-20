@@ -1,0 +1,13 @@
+prefix=/Users/kuatul/Desktop/IISC-ML&AI/Capstone_Project/mlopsvenv0
+exec_prefix=/Users/kuatul/Desktop/IISC-ML&AI/Capstone_Project/mlopsvenv0
+libdir=/Users/kuatul/Desktop/IISC-ML&AI/Capstone_Project/mlopsvenv0/lib
+sharedlibdir=/Users/kuatul/Desktop/IISC-ML&AI/Capstone_Project/mlopsvenv0/lib
+includedir=/Users/kuatul/Desktop/IISC-ML&AI/Capstone_Project/mlopsvenv0/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
