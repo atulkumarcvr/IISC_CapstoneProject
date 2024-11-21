@@ -1,0 +1,9 @@
+DATA_DIR = "path/to/traffic_sign_images"
+LABEL_FILE = "path/to/labels.csv"
+ARTIFACTS_DIR = "artifacts"
+MODEL_SAVE_PATH = "traffic_sign_model.h5"
+INPUT_SHAPE = (50, 50, 3)
+NUM_CLASSES = 43
+TEST_SIZE = 0.2
+EPOCHS = 10
+BATCH_SIZE = 32
