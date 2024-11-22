@@ -5,4 +5,5 @@ opencv-python
 tensorflow
 Pillow
 dill
+sckit-learn
 #-e . #automaticaly trigers setup.py

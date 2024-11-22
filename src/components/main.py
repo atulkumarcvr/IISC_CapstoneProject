@@ -2,6 +2,9 @@ from data_ingest import DataIngest
 from data_transform import DataTransform
 from model_train import ModelTrainer
 import config
+import sys
+#from src.exception import CustomException
+#from src
 
 def main():
     try:
@@ -29,7 +32,8 @@ def main():
         print(f"Test Loss: {loss}, Test Accuracy: {accuracy}")
 
     except Exception as e:
-        print(f"An error occurred in the pipeline: {e}")
+        #CustomException(e,sys)
+         print(f"An error occurred in the pipeline: {e}")
 
 if __name__ == "__main__":
     main()
